@@ -11,11 +11,10 @@
     <build>
         <plugins>
             <plugin>
-                <groupId>com.github.mike10004</groupId>
-                <artifactId>mariadb4j-maven-plugin</artifactId>
+                <groupId>ch.vorburger.mariaDB4j</groupId>
+                <artifactId>mariaDB4j-maven-plugin</artifactId>
                 <configuration>
                     <skip>true</skip>
-                    <port>0</port>
                 </configuration>
                 <executions>
                     <execution>

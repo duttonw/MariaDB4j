@@ -11,11 +11,11 @@
     <build>
         <plugins>
             <plugin>
-                <groupId>com.github.mike10004</groupId>
-                <artifactId>mariadb4j-maven-plugin</artifactId>
+                <groupId>ch.vorburger.mariaDB4j</groupId>
+                <artifactId>mariaDB4j-maven-plugin</artifactId>
                 <configuration>
                     <port>0</port>
-                    <createDatabase>charset_test</createDatabase>
+                    <databaseName>charset_test</databaseName>
                     <scripts>
                         <script>target/test-classes/utf8mb4/supertext.sql</script>
                     </scripts>

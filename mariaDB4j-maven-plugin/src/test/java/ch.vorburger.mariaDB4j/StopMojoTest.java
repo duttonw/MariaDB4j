@@ -20,7 +20,8 @@
 package ch.vorburger.mariaDB4j;
 
 import ch.vorburger.exec.ManagedProcessException;
-import ch.vorburger.mariaDB4j.utils.DBSingleton;
+import ch.vorburger.mariadb4j.StopMojo;
+import ch.vorburger.mariadb4j.utils.DBSingleton;
 import ch.vorburger.mariadb4j.DB;
 import org.apache.maven.plugin.MojoExecutionException;
 import org.apache.maven.plugin.logging.Log;

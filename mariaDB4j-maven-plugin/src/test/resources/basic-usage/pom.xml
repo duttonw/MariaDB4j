@@ -11,11 +11,10 @@
     <build>
         <plugins>
             <plugin>
-                <groupId>com.github.mike10004</groupId>
-                <artifactId>mariadb4j-maven-plugin</artifactId>
+                <groupId>ch.vorburger.mariaDB4j</groupId>
+                <artifactId>mariaDB4j-maven-plugin</artifactId>
                 <configuration>
-                    <port>0</port>
-                    <createDatabase>foo</createDatabase>
+                    <databaseName>foo</databaseName>
                     <scripts>
                         <script>target/test-classes/basic-usage/foo-script.sql</script>
                     </scripts>
