@@ -17,7 +17,7 @@
  * limitations under the License.
  * #L%
  */
-package com.github.mike10004.mariadb4jmavenplugin;
+package ch.vorburger.mariaDB4j;
 
 import ch.vorburger.exec.ManagedProcessException;
 import ch.vorburger.mariadb4j.DB;

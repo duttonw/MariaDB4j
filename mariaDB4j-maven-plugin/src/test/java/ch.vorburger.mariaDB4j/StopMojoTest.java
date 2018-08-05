@@ -36,6 +36,11 @@ import java.util.List;
 import static org.mockito.Mockito.*;
 import static org.assertj.core.api.Assertions.*;
 
+/**
+ *  StopMojoTest mocking database testing function
+ *
+ *  @author William Dutton
+ */
 public class StopMojoTest {
 
     StopMojo stopMojo;

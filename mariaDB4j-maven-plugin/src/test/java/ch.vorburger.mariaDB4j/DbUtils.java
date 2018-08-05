@@ -17,7 +17,7 @@
  * limitations under the License.
  * #L%
  */
-package com.github.mike10004.mariadb4jmavenplugin;
+package ch.vorburger.mariaDB4j;
 
 import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.ImmutableTable;
@@ -35,6 +35,7 @@ import static com.google.common.base.Preconditions.checkArgument;
  * DbUtils for testing
  *
  * @author mike10004
+ * @author William Dutton
  */
 @SuppressWarnings({"SqlDialectInspection", "SqlNoDataSourceInspection"})
 class DbUtils {
